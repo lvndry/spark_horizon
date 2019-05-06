@@ -1,0 +1,14 @@
+{
+  "name": "decipher the code",
+  "version": "1.0.0",
+  "description": "Spark coding test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "lvndry <monga.4landry@gmail.com>",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  }
+}
