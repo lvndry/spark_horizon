@@ -10,7 +10,7 @@ function encoder(key) {
 
     // This loop inserts the keyword
     // at the start of alphabet
-    for (let i = 0, length = key.length; i< length; i++) {
+    for (let i = 0, length = key.length; i < length; i++) {
         // To check whether the character is inserted
         // earlier in the encoded string or not
         if (arr[key[i].charCodeAt(0)-65] === 0) {
@@ -22,7 +22,7 @@ function encoder(key) {
     // This loop inserts the remaining
     // characters in the encoded string.
     for (let i = 0; i < 26; i++) {
-      if(arr[i] == 0) {
+      if (arr[i] === 0) {
         encoded += String.fromCharCode(i + 65);
         arr[i] = 1;
       }

@@ -78,7 +78,7 @@ inquirer.prompt([
   }
 ]).then((answers) => {
   if (answers.width) {
-    window.heigth = answers.width;
+    window.width = answers.width;
   }
   if (answers.heigth) {
     window.heigth = answers.heigth
